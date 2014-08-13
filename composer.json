@@ -1,0 +1,10 @@
+{
+    "name": "flexpress/component-taxonomy",
+    "description": "Taxonomy helper for WordPress",
+    "autoload": {
+        "psr-4": {
+            "FlexPress\\Components\\Taxonomy\\": "src/FlexPress/Components/Taxonomy/"
+        }
+    }
+
+}
