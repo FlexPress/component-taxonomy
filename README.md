@@ -11,7 +11,7 @@ $pimple["documentTypeTaxonomy"] = function () {
   return new DocumentType();
 };
 
-$this['taxonomyHelper'] = function ($c) {
+$pimple['taxonomyHelper'] = function ($c) {
     return new TaxonomyHelper($c['objectStorage'], array(
         $c["documentTypeTaxonomy"]
     ));
