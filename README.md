@@ -68,12 +68,12 @@ class DocumentType extends AbstractTaxonomy {
   
   public function getPluralName()
   {
-    return "Docs";
+    return "Doc types";
   }
   
   public function getSingularName()
   {
-    return "Doc";
+    return "Doc type";
   }
 
 }
