@@ -4,7 +4,8 @@
 The taxonomy component uses two classes:
 - AbstractTaxonommy, which you extend to create a taxonomy.
 - TaxonomyHelper, which hooks into everything for you and registers the taxonomies.
-- Lets create a pimple config for both of these
+
+Lets create a pimple config for both of these
 
 ```
 $pimple["documentTypeTaxonomy"] = function () {
@@ -88,7 +89,7 @@ class DocumentType extends AbstractTaxonomy {
 
 ## TaxonomyHelper usage
 
-- Once you have setup the pimple config you are use the TaxonomyHelper like this
+Once you have setup the pimple config you are use the TaxonomyHelper like this
 ```
 $helper = $pimple['taxonomyHelper'];
 $helper->registerTaxonomies();
